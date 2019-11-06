@@ -2,14 +2,14 @@ package com.glarimy.cloud;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
+import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 @SpringBootApplication
-@EnableZuulProxy
-public class GatewayService {
+@EnableEurekaServer
+public class RegistryService {
 
 	public static void main(String[] args) {
-		SpringApplication.run(GatewayService.class, args);
+		SpringApplication.run(RegistryService.class, args);
 	}
 
 }
