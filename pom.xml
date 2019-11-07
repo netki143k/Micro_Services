@@ -10,10 +10,10 @@
 		<relativePath />
 	</parent>
 	<groupId>com.glarimy</groupId>
-	<artifactId>eureka-service</artifactId>
+	<artifactId>quiz-registery-service</artifactId>
 	<version>1.0.0</version>
-	<name>glarimy-eureka-service</name>
-	<description>Eureka Registry Service</description>
+	<name>glarimy-quiz-registery-service</name>
+	<description>Eureka Registry Service for Quiz</description>
 
 	<properties>
 		<java.version>1.8</java.version>
